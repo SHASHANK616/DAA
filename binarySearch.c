@@ -1,37 +1,3 @@
-// #include<stdio.h>
-// int binarySearch(int a[],int n,int data){
-//     int l=0;
-//     int r=n-1;
-//     int mid;
-//     while(l<r){
-//        mid=(l+r)/2;
-//        if( a[mid]==data ){
-//         return mid;
-//        }
-//        else if(a[mid]>data){
-//         l=mid+1;
-        
-//        }
-//        else{
-//         r=mid-1;
-//        }
-//      return -1;
-//     }
-    
-// }
-
-// int main(){
-//     int a[]={1,2,3,4};
-//     int n=4;
-//     int data =4;
-//     int result=binarySearch(a,n,data);
-//     (result==-1 )? printf("not present") : printf("Found");
-
-// return 0;
-    
-// }
-
-//cwh
 #include<stdio.h>
 int BinarySearch(int arr[],int data,int size){
     int low=0;
